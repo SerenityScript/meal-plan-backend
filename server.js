@@ -8,7 +8,7 @@ require('dotenv').config();
 
 mongoose.set("strictQuery", false);
 
-const PORT = 4000 || process.env.port;
+const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(cors());
