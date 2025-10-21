@@ -23,6 +23,3 @@ app.use(routes);
 app.listen(PORT, () => {
   console.log(`I'm listening on port ${PORT}`);
 })
-
-// yuliasiebrandt JQvKs7lmNaFg3w0v
-// mongodb+srv://yuliasiebrandt:<db_password>@cluster0.twjay6a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
